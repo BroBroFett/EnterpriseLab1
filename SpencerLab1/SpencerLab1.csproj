@@ -69,7 +69,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Assets\fonts\glyphicons-halflings-regular.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Scripts\lib\bootstrap.min.js" />
